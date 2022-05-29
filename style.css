@@ -10,8 +10,8 @@
   margin: 0;
 }
 :root{
-  --pink: #ff74a4;
-  --violet: #9f6ea3;
+  --pink: #74c3ff;
+  --violet: #f1a5f8;
   --lightblack: #515C6F;
   --white: #ffffff;
   --darkwhite: #cecaca;
@@ -31,8 +31,10 @@ body{
   overflow: hidden;
   position: relative;
   border-radius: 15px;
-  background: var(--white);
+  /* background: var(--white); */
+  background-color: rgb(0, 0, 0);
   box-shadow: 0px 6px 15px var(--lightbshadow);
+  
 }
 .wrapper i{
   cursor: pointer;
@@ -177,7 +179,7 @@ body{
 
 .music-list{
   position: absolute;
-  background: var(--white);
+  background: black;
   width: 100%;
   left: 0;
   bottom: -55%;
